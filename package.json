@@ -1,24 +1,28 @@
 {
-  "name": "react_starter",
+  "name": "fire_chat",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "Chat app using ReactJS, ReduxJS, and Firebase",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
     "bundle": "webpack --config webpack.prod.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scott Bowler",
+  "author": "Vienna Tran",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/viennaltran/fire_chat_app.git"
   },
   "dependencies": {
+    "firebase": "^5.6.0",
+    "materialize-css": "^1.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.1"
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
